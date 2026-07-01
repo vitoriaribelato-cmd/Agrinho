@@ -1,2 +1,60 @@
-# Agrinho
-agrinho
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida | Preserve o Futuro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">☘️ EcoVida</div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#pilares">Pilares</a>
+            <a href="#quiz">Desafio</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Preservar a natureza é proteger o nosso amanhã</h1>
+        <p>Pequenas atitudes diárias geram grandes impactos globais. Comece hoje.</p>
+        <button id="btn-acao">Descubra Como</button>
+    </section>
+
+    <section id="pilares">
+        <h2>Nossos Pilares Ambientais</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Reciclagem</h3>
+                <p>Separe o lixo corretamente e dê uma nova vida aos materiais descartados.</p>
+            </div>
+            <div class="card">
+                <h3>Energia Limpa</h3>
+                <p>Incentive o uso de fontes renováveis como a energia solar e eólica.</p>
+            </div>
+            <div class="card">
+                <h3>Consumo Consciente</h3>
+                <p>Reduza o desperdício de água, evite plásticos de uso único e compre localmente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <h2>Teste Seus Conhecimentos</h2>
+        <p>Quanto tempo uma garrafa PET leva para se decompor na natureza?</p>
+        <div class="quiz-options">
+            <button class="opcao" data-correta="false">50 anos</button>
+            <button class="opcao" data-correta="false">100 anos</button>
+            <button class="opcao" data-correta="true">Mais de 400 anos</button>
+        </div>
+        <p id="resultado-quiz"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EcoVida. Juntos pelo planeta.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
